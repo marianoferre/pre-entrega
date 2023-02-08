@@ -60,10 +60,10 @@ body{
 
              .navbar-collapse{
                  width: 100%;
-            
+                z-index: 3;
                  min-height: 40px;
-                 background-color:
-                 #dadada59
+                 background:linear-gradient( #dadada91, #dadadae3, #d5d3d3)
+                
         }
 
             nav ul a:hover{
@@ -137,6 +137,13 @@ body{
         
     }
 
+        .navegacion-container a:hover {
+            background-color: #dadadad2;
+            font-size: 15px;
+            padding:5px;
+            border-radius: 10%;
+            
+        }
    
      .navegacion_sobremi{ 
         width: 100%;
@@ -147,7 +154,7 @@ body{
          .navegacion_sobremi a{
          position: absolute;
          top:50%;
-         left:50%;
+         left:42%;
          text-decoration: overline underline;
          color: black;
          font-weight:bolder ;
@@ -161,7 +168,7 @@ body{
         .navegacion_galeria a{
          position: absolute;
          top:50%;
-         left:50%;
+         left:42%;
          text-decoration: overline underline;
          color: black;
          font-weight:bolder ;
@@ -174,7 +181,7 @@ body{
          .nevegacion_fineart a{
              position: absolute;
              top:50%;
-             left:50%;
+             left:42%;
              text-decoration: overline underline;
              color: black;
              font-weight:bolder ;
@@ -189,7 +196,7 @@ body{
         .nevegacion_contacto a{
             position: absolute;
             top:50%;
-            left:50%;
+            left:42%;
             text-decoration: overline underline;
             color: black;
             font-weight:bolder ;
@@ -223,6 +230,7 @@ body{
             grid-template-columns: repeat(3,1fr);
             width: 100%;
             grid-auto-rows: 150px;
+            z-index: 0;
             
             
 
